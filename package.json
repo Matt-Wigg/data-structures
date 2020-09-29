@@ -1,0 +1,19 @@
+{
+  "name": "datastructures",
+  "version": "1.0.0",
+  "description": "es6 Data Structures",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "data",
+    "structures",
+    "es6"
+  ],
+  "author": "Matthew Wigglesworth",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "type": "module"
+}
