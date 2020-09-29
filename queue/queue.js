@@ -8,7 +8,7 @@ class Queue {
     this.storage.push(value);
   }
 
-  // returns the first item inthe queue.
+  // returns the first item in the queue.
   peek() {
     return this.storage[0];
   }
