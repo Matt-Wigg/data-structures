@@ -138,7 +138,7 @@ describe('stack', () => {
   });
 
   describe('stack.size()', () => {
-    it('stack.size() should return 0 when the Stack is empty', () => {
+    it('stack.size() should return 0 when the stack is empty', () => {
       expect.assertions(1);
       expect(stack.size()).toStrictEqual(0);
     });
@@ -152,7 +152,7 @@ describe('stack', () => {
       stack.push(5);
       expect(stack.size()).toStrictEqual(4);
     });
-    it('stack.size() should return 0 if pop() is called on an empty Stack', () => {
+    it('stack.size() should return 0 if pop() is called on an empty stack', () => {
       expect.assertions(3);
       expect(stack.size()).toStrictEqual(0);
       stack.push(4);
