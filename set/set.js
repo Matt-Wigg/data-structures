@@ -4,7 +4,7 @@ class Set {
   }
 
   add(value) {
-    this.storage[value] = 1;
+    this.storage[value] = true;
   }
 
   contains(value) {
